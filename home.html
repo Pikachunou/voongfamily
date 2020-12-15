@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
@@ -12,10 +12,31 @@
        https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <link rel="stylesheet" href="home.css">
     <script defer src="home.js"></script>
 </head>
 
 <body>
+    <div class="top-page">
+        <a class="Home-Page" href="./home.html">
+            <p>Home Page</p>
+        </a>
+        <a>
+            <p>Manage Account</p>
+        </a>
+        <img class="settings-image" src="assets/Settings.svg">
+    </div>
+    <div class="button-container">
+        <button>
+            View Photos
+        </button>
+        <button>
+            Upload Photos
+        </button>
+    </div>
+    <div class="bottom-page">
+
+    </div>
     <!-- <button class="logout-button">Logout</button> -->
     <script>
         // Your web app's Firebase configuration
