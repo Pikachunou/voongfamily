@@ -6,3 +6,22 @@
 .home-page {
     
 }
+
+.View-Photos {
+    width: 441px;
+    height: 344px;
+    background-color: #2EEBF8;
+}
+
+.Upload-Photos {
+    width: 441px;
+    height: 344px;
+    background-color: #2EEBF8;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px
+}
+
