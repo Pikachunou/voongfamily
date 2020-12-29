@@ -1,0 +1,12 @@
+.home-button {
+    width: 52px;
+    height: 45px;
+}
+
+.home-button-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* margin-bottom: 100px;
+    margin-left: 700px; */
+}
