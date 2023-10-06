@@ -78,7 +78,10 @@
         </button>
     </div>
     <div class="bottom-page">
-
+      <form>
+        <input type="file" id="imageInput">
+        <button type="button" onclick="uploadImage()">Upload Image</button>
+      </form>      
     </div>
     <!-- <button class="logout-button">Logout</button> -->
     <script>
@@ -97,6 +100,8 @@
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
+        const db = firebase.firestore();
+        const storage = firebase.storage();
     </script>
 </body>
 
