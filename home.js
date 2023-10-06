@@ -21,7 +21,7 @@ function uploadImage() {
   
     if (file) {
       // Create a reference to the storage location
-      const storageRef = storage.ref('images/' + file.name);
+      const storageRef = firebase.storage().ref('Pictures/' + file.name); // Use firebase.storage() here
   
       // Upload the file to Firestore Storage
       const uploadTask = storageRef.put(file);
@@ -49,5 +49,4 @@ function uploadImage() {
         }
       );
     }
-  }
-  
+}
